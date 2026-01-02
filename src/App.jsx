@@ -14,7 +14,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "https://YOUR_API_ID.execute-api.eu-west-2.amazonaws.com/prod/search",
+        "https://ta3epx1768.execute-api.eu-west-2.amazonaws.com/prod/",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
