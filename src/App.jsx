@@ -17,7 +17,7 @@ function App() {
         "https://ta3epx1768.execute-api.eu-west-2.amazonaws.com/prod/",
         {
           method: "POST",
-          headers: { "Content-Type": "application/json", "basic-auth-header": "auth" },
+          headers: { "Content-Type": "application/json"},
           body: JSON.stringify({ query })
         }
       );
